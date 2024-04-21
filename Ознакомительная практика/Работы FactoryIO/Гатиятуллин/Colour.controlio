@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ControlIO Version="v1.0.0">
+  <Properties SyncReset="true" CycleTime="10" />
+  <Diagram DiagramPosition="-782,-74" DiagramScale="0.613913253540759">
+    <NodeData Key="2" Location="-135 115" NodeType="BooleanSource" ButtonChecked="True" />
+    <NodeData Key="3" Location="5 130" NodeType="OutputBit" MemMapAddress="4" />
+    <NodeData Key="4" Location="-440 10" NodeType="InputBit" MemMapAddress="0" />
+    <NodeData Key="5" Location="-440 115" NodeType="InputBit" MemMapAddress="1" />
+    <NodeData Key="7" Location="-280 225" NodeType="OutputBit" MemMapAddress="7" />
+    <NodeData Key="8" Location="-280 10" NodeType="OutputBit" MemMapAddress="6" />
+    <NodeData Key="9" Location="-280 115" NodeType="OutputBit" MemMapAddress="8" />
+    <NodeData Key="10" Location="5 -25" NodeType="OutputBit" MemMapAddress="0" />
+    <NodeData Key="11" Location="195 -30" NodeType="OutputBit" MemMapAddress="1" />
+    <NodeData Key="12" Location="5 225" NodeType="OutputBit" MemMapAddress="2" />
+    <NodeData Key="13" Location="5 320" NodeType="OutputBit" MemMapAddress="3" />
+    <NodeData Key="14" Location="-440 225" NodeType="InputBit" MemMapAddress="2" />
+    <LinkData From="5" To="9" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="4" To="8" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="2" To="10" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="2" To="11" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="2" To="3" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="2" To="12" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="2" To="13" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="14" To="7" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+  </Diagram>
+</ControlIO>
